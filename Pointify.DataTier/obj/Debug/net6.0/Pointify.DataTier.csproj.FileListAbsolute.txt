@@ -12,3 +12,17 @@
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/Pointify.DataTier.pdb
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/Pointify.DataTier.genruntimeconfig.cache
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/ref/Pointify.DataTier.dll
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.deps.json
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.runtimeconfig.json
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.dll
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.pdb
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.csproj.AssemblyReference.cache
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.AssemblyInfoInputs.cache
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.AssemblyInfo.cs
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.csproj.CoreCompileInputs.cache
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.dll
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\refint\Pointify.DataTier.dll
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.pdb
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.genruntimeconfig.cache
+C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\ref\Pointify.DataTier.dll

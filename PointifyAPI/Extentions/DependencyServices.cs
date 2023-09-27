@@ -40,6 +40,7 @@ public static class DependencyServices
     public static IServiceCollection AddServices(this IServiceCollection services)
     {
         services.AddScoped<IMemberProgramService, MemberProgramService>();
+        services.AddScoped<IStoreService, StoreService>();
         // services.AddScoped<IAccountService, AccountService>();
         // services.AddScoped<IBrandService, BrandService>();
         // services.AddScoped<IStoreService, StoreService>();
@@ -80,7 +81,7 @@ public static class DependencyServices
     {
         services.AddSwaggerGen(options =>
         {
-            options.SwaggerDoc("v1", new OpenApiInfo() {Title = "Pos System", Version = "v1"});
+            options.SwaggerDoc("v1", new OpenApiInfo() { Title = "Pos System", Version = "v1" });
             options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
             {
                 In = ParameterLocation.Header,

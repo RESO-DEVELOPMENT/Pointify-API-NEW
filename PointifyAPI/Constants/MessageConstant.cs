@@ -47,6 +47,8 @@ public static class MessageConstant
         public const string CreateStoreSessionsSuccessfully = "Tạo Session cho store thành công";
         public const string GetStoreSessionUnAuthorized = "Bạn không được phép lấy session của store khác!";
         public const string CreateStoreSessionUnAuthorized = "Bạn không được phép tạo session cho store khác!";
+        public const string MemberShipCardCodeNotEsit = "Member không tồn tại trong hệ thốngg";
+       
     }
 
     public static class Category

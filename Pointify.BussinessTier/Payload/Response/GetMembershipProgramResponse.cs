@@ -12,6 +12,7 @@ public class GetMembershipProgramResponse
         EndDay = endDay;
         TermAndConditions = termAndConditions;
         Status = status;
+
     }
 
     public Guid Id { get; set; }
@@ -21,4 +22,5 @@ public class GetMembershipProgramResponse
     public DateTime? EndDay { get; set; }
     public string? TermAndConditions { get; set; }
     public string? Status { get; set; }
+
 }
