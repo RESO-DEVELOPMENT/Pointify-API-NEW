@@ -17,7 +17,24 @@ public static class MessageConstant
         public const string UpdateBrandSuccessfulMessage = "Cập nhật thông tin brand thành công";
         public const string UpdateBrandFailedMessage = "Cập nhật thông tin brand thất bại";
     }
-
+    public static class MembershipCard
+    {
+        public const string DeleteMembershipCardFailedMessage = "Xóa membershipcard thất bại";
+        public const string MembershipCardIdNotEsit = "MembershipCard không tồn tại trong hệ thống";
+        public const string CreateMembershipCardFailMessage = "Tạo membershipCard mới thất bại";
+        public const string CreateMembershipCardSucceedMessage = "Tạo membershipCard mới thành công";
+        public const string MembershipCardNotFoundMessage = "membershipCard không tồn tại trong hệ thống";
+        public const string MembershipCardDeletedMessage = "membershipCard đã bị xóa thành công";
+    }
+    public static class Member
+    {
+        public const string DeleteMemberFailedMessage = "Xóa member thất bại";
+        public const string MemberIdNotEsit = "Member không tồn tại trong hệ thống";
+        public const string CreateMemberFailMessage = "Tạo member mới thất bại";
+        public const string CreateMemberSucceedMessage = "Tạo member mới thành công";
+        public const string MemberNotFoundMessage = "Member không tồn tại trong hệ thống";
+        public const string MemberDeletedMessage = "Member đã bị xóa thành công";
+    }
     public static class Account
     {
         public const string CreateAccountWithWrongRoleMessage = "Please create with acceptent role";
@@ -48,7 +65,7 @@ public static class MessageConstant
         public const string GetStoreSessionUnAuthorized = "Bạn không được phép lấy session của store khác!";
         public const string CreateStoreSessionUnAuthorized = "Bạn không được phép tạo session cho store khác!";
         public const string MemberShipCardCodeNotEsit = "Member không tồn tại trong hệ thốngg";
-       
+
     }
 
     public static class Category
@@ -131,7 +148,7 @@ public static class MessageConstant
         public const string ProductInGroupNotFound = "Product in Group không tồn tại trong hệ thống";
         public const string ProductNotInGroupMessage = "Data cũ của product không tồn tại, productId: ";
     }
-    
+
     public static class Promotion
     {
         public const string CreateNewPromotionFailedMessage = "Tạo mới Promotion thất bại";

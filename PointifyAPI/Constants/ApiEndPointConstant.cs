@@ -16,6 +16,17 @@ public static class ApiEndPointConstant
         public const string Login = AuthenticationEndpoint + "/login";
     }
 
+    public static class Member
+    {
+        public const string MembersEndpoint = ApiEndpoint + "/members";
+        public const string MemberEndpoint = MembersEndpoint + "/{id}";
+
+    }
+    public static class MembershipCard
+    {
+        public const string MembershipCardsEndpoint = ApiEndpoint + "/membership-cards";
+        public const string MembershipCardEndpoint = MembershipCardsEndpoint + "/{id}";
+    }
     public static class Programs
     {
         public const string ProgramsEndpoint = ApiEndpoint + "/programs";

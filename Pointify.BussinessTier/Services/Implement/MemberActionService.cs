@@ -20,10 +20,5 @@ namespace Pointify.BussinessTier.Services.Implement
     ) : base(unitOfWork, logger)
         {
         }
-
-        public async Task<string> CreateMemberAction(MemberActionRequest request)
-        {
-
-        }
     }
 }

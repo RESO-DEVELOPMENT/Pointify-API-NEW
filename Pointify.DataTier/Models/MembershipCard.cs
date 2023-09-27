@@ -8,7 +8,6 @@ namespace Pointify.DataTier.Models
         public MembershipCard()
         {
             MemberActions = new HashSet<MemberAction>();
-            MembershipLevels = new HashSet<MembershipLevel>();
         }
 
         public Guid Id { get; set; }
@@ -18,11 +17,12 @@ namespace Pointify.DataTier.Models
         public DateTime? CreatedTime { get; set; }
         public Guid BrandId { get; set; }
         public Guid MembershipCardTypeId { get; set; }
-        public string PhysicalCardCode { get; set; } = null!;
+        public string? PhysicalCardCode { get; set; }
+        public Guid MemberShipCardLevelId { get; set; }
 
         public virtual Member Member { get; set; } = null!;
+        public virtual MembershipLevel MemberShipCardLevel { get; set; } = null!;
         public virtual MembershipCardType MembershipCardType { get; set; } = null!;
         public virtual ICollection<MemberAction> MemberActions { get; set; }
-        public virtual ICollection<MembershipLevel> MembershipLevels { get; set; }
     }
 }
