@@ -1,0 +1,15 @@
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/bin/Debug/net6.0/Pointify.BussinessTier.deps.json
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/bin/Debug/net6.0/Pointify.BussinessTier.dll
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/bin/Debug/net6.0/Pointify.BussinessTier.pdb
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/bin/Debug/net6.0/Pointify.DataTier.dll
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/bin/Debug/net6.0/Pointify.DataTier.pdb
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.csproj.AssemblyReference.cache
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.AssemblyInfoInputs.cache
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.AssemblyInfo.cs
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.csproj.CoreCompileInputs.cache
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.csproj.CopyComplete
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.dll
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/refint/Pointify.BussinessTier.dll
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.pdb
+/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/ref/Pointify.BussinessTier.dll

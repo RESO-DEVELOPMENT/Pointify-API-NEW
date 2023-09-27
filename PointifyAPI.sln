@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointifyAPI", "PointifyAPI\PointifyAPI.csproj", "{3AD8DD4C-DFA3-49E3-A2F4-8B7F2AE2AA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pointify.DataTier", "Pointify.DataTier\Pointify.DataTier.csproj", "{E41BB974-3B1E-4F45-80F2-461ADABF6E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pointify.BussinessTier", "Pointify.BussinessTier\Pointify.BussinessTier.csproj", "{51FE97FA-47F1-4C51-9903-973A07ED46B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD8DD4C-DFA3-49E3-A2F4-8B7F2AE2AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD8DD4C-DFA3-49E3-A2F4-8B7F2AE2AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD8DD4C-DFA3-49E3-A2F4-8B7F2AE2AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD8DD4C-DFA3-49E3-A2F4-8B7F2AE2AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41BB974-3B1E-4F45-80F2-461ADABF6E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41BB974-3B1E-4F45-80F2-461ADABF6E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41BB974-3B1E-4F45-80F2-461ADABF6E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41BB974-3B1E-4F45-80F2-461ADABF6E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FE97FA-47F1-4C51-9903-973A07ED46B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FE97FA-47F1-4C51-9903-973A07ED46B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FE97FA-47F1-4C51-9903-973A07ED46B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FE97FA-47F1-4C51-9903-973A07ED46B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
