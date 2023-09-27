@@ -23,4 +23,13 @@
 
 
 
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Server.IIS">
+        <HintPath>..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\6.0.22\Microsoft.AspNetCore.Server.IIS.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+
+
+
 </Project>

@@ -9,18 +9,24 @@ namespace Pointify.BussinessTier.Payload.Request
     public class MemberActionRequest
     {
         public Guid ApiKey { get; set; }
-        public string storeCode { get; set; }
-        public Guid memberId { get; set; }
-        public int amount { get; set; }
-        public string actionType { get; set; }
+        public string StoreCode { get; set; }
 
-        public MemberActionRequest(Guid apiKey, string storeCode, Guid memberId, int amount, string actionType)
+
+        public string MemberShipCardCode { get; set; }
+        public int Amount { get; set; }
+        public Guid MemberActionTypeId { get; set; }
+
+        public string? Description { get; set; }
+
+        public MemberActionRequest(Guid apiKey, string storeCode, string memberShipCardCode, int amount,
+            Guid memberActionTypeId, string? description)
         {
             ApiKey = apiKey;
-            this.storeCode = storeCode;
-            this.memberId = memberId;
-            this.amount = amount;
-            this.actionType = actionType;
+            this.StoreCode = storeCode;
+            this.MemberShipCardCode = memberShipCardCode;
+            this.Amount = amount;
+            this.MemberActionTypeId = memberActionTypeId;
+            this.Description = description;
         }
     }
 }

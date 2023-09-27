@@ -11,7 +11,7 @@ namespace Pointify.DataTier.Models
         }
 
         public Guid Id { get; set; }
-        public decimal? ActionValue { get; set; }
+        public double? ActionValue { get; set; }
         public string? Status { get; set; }
         public string Description { get; set; } = null!;
         public bool? DelFlag { get; set; }

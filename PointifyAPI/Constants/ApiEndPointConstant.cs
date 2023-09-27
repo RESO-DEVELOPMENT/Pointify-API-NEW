@@ -46,6 +46,7 @@ public static class ApiEndPointConstant
         public const string StoreEndDayReportEndpoint = StoreEndpoint + "/day-report";
         public const string GetPromotion = StoreEndpoint + "/promotion";
         public const string ScanMember = StoresEndpoint + "/member-scan/{code}";
+        public const string MemberAction = StoresEndpoint + "/member-action";
     }
 
     public static class Account

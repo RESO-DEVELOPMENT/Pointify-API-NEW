@@ -5,6 +5,11 @@ namespace Pointify.DataTier.Models
 {
     public partial class MembershipLevel
     {
+        public MembershipLevel()
+        {
+            MembershipCards = new HashSet<MembershipCard>();
+        }
+
         public Guid Id { get; set; }
         public string? Name { get; set; }
         public bool? DelFlag { get; set; }
@@ -14,6 +19,6 @@ namespace Pointify.DataTier.Models
         public double? PointRedeemRate { get; set; }
         public int? LevelRank { get; set; }
 
-        public virtual MembershipCard? MembershipCard { get; set; }
+        public virtual ICollection<MembershipCard> MembershipCards { get; set; }
     }
 }

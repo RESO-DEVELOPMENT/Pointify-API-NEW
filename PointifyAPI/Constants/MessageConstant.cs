@@ -47,8 +47,8 @@ public static class MessageConstant
         public const string CreateStoreSessionsSuccessfully = "Tạo Session cho store thành công";
         public const string GetStoreSessionUnAuthorized = "Bạn không được phép lấy session của store khác!";
         public const string CreateStoreSessionUnAuthorized = "Bạn không được phép tạo session cho store khác!";
-        public const string MemberShipCardCodeNotEsit = "Member không tồn tại trong hệ thốngg";
-       
+        public const string MemberShipCardCodeNotEsit = "Member không tồn tại trong hệ thống";
+        public const string ActionFail = "Giao dịch thất bại";
     }
 
     public static class Category
@@ -67,7 +67,10 @@ public static class MessageConstant
         public const string EmptyCollectionIdMessage = "Collection Id bị trống";
         public const string CollectionNotFoundMessage = "Collection không tồn tại trong hệ thống";
         public const string CreateNewCollectionFailedMessage = "Tạo mới collection thất bại";
-        public const string UpdateProductInCollectionSuccessfulMessage = "Product collection trong được cập nhật thành công";
+
+        public const string UpdateProductInCollectionSuccessfulMessage =
+            "Product collection trong được cập nhật thành công";
+
         public const string UpdateProductInCollectionFailedMessage = "Product collection cập nhật thất bại";
     }
 
@@ -89,14 +92,25 @@ public static class MessageConstant
         public const string ProductNotInBrandMessage = "Bạn không thể thêm product của brand khác, product id: ";
         public const string MissingStoreIdMessage = "Bạn đang không thuộc về một store, không thể lấy menu";
         public const string BrandIdWithMenuIdIsNotExistedMessage = "BrandId và MenuId không tồn tại trong hệ thống";
-        public const string BaseMenuIsExistedInBrandMessage = "Brand đã tồn tại menu cơ bản, không thể cập nhật priority là 0";
+
+        public const string BaseMenuIsExistedInBrandMessage =
+            "Brand đã tồn tại menu cơ bản, không thể cập nhật priority là 0";
+
         public const string UpdateMenuInformationSuccessfulMessage = "Cập nhật thông tin menu thành công";
         public const string UpdateMenuInformationFailedMessage = "Cập nhật thông tin menu thất bại";
-        public const string EndTimeLowerThanStartTimeMessage = "Thời gian kết thúc không được nhỏ hơn thời gian bắt đầu";
-        public const string StartTimeRequestBiggerThanCurrentMenuEndTimeMessage = "Thời gian bắt đầu khi cập nhật không được lớn hơn thời gian kết thúc hiện tại của menu";
-        public const string EndTimeRequestLowerThanCurrentMenuStartTimeMessage = "Thời gian kết thúc khi cập nhật không được nhỏ hơn thời gian bắt đầu hiện tại của menu";
+
+        public const string EndTimeLowerThanStartTimeMessage =
+            "Thời gian kết thúc không được nhỏ hơn thời gian bắt đầu";
+
+        public const string StartTimeRequestBiggerThanCurrentMenuEndTimeMessage =
+            "Thời gian bắt đầu khi cập nhật không được lớn hơn thời gian kết thúc hiện tại của menu";
+
+        public const string EndTimeRequestLowerThanCurrentMenuStartTimeMessage =
+            "Thời gian kết thúc khi cập nhật không được nhỏ hơn thời gian bắt đầu hiện tại của menu";
+
         public const string CanNotUsePriorityAsBaseMenu = "Bạn không thể dùng priority của base menu để tạo menu khác";
         public const string BaseMenuExistedMessage = "Nhãn hàng đã có menu cơ bản";
+
         public const string UpdateMenuStatusRequestWrongFormatMessage =
             "Cập nhật status menu request sai format";
     }
@@ -104,7 +118,10 @@ public static class MessageConstant
     public static class Order
     {
         public const string UserNotInSessionMessage = "Tài khoản không trong ca làm để tạo Order";
-        public const string NoProductsInOrderMessage = "Không thể tạo order khi order không đính kèm sản phẩm bên trong";
+
+        public const string NoProductsInOrderMessage =
+            "Không thể tạo order khi order không đính kèm sản phẩm bên trong";
+
         public const string CreateOrderFailedMessage = "Tạo mới order thất bại";
         public const string EmptyOrderIdMessage = "Id của order không hợp lệ";
         public const string OrderNotFoundMessage = "Order không tồn tại trong hệ thống";
@@ -116,12 +133,16 @@ public static class MessageConstant
         public const string SessionNotFoundMessage = "Session không tồn tại trong store";
         public const string CreateNewSessionInvalidStartDate = "Session startDate bị trùng với session: ";
         public const string CreateNewSessionInvalidEndDate = "Session endDate bị trùng với session: ";
-        public const string AlreadySessionAvailableInTimeGap = "Thời gian của session bạn đang tạo hoặc cập nhật hiện đã có một vài session vui lòng thay đổi thời gian phù hợp";
+
+        public const string AlreadySessionAvailableInTimeGap =
+            "Thời gian của session bạn đang tạo hoặc cập nhật hiện đã có một vài session vui lòng thay đổi thời gian phù hợp";
     }
 
     public static class GroupProduct
     {
-        public const string WrongComboInformationMessage = "Combo bạn đang chọn không tồn tại hoặc không thuộc brand của bạn";
+        public const string WrongComboInformationMessage =
+            "Combo bạn đang chọn không tồn tại hoặc không thuộc brand của bạn";
+
         public const string GroupProductNotFoundMessage = "Group Product không tồn tại trong hệ thống";
     }
 
@@ -131,7 +152,7 @@ public static class MessageConstant
         public const string ProductInGroupNotFound = "Product in Group không tồn tại trong hệ thống";
         public const string ProductNotInGroupMessage = "Data cũ của product không tồn tại, productId: ";
     }
-    
+
     public static class Promotion
     {
         public const string CreateNewPromotionFailedMessage = "Tạo mới Promotion thất bại";
