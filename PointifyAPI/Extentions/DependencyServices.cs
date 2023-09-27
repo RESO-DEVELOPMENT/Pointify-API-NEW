@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Pointify.BussinessTier.Payload.Request;
 using Pointify.BussinessTier.Services.Implement;
 using Pointify.BussinessTier.Services.Interface;
 using Pointify.BussinessTier.UnitOfWork.Implement;
@@ -43,6 +44,7 @@ public static class DependencyServices
         services.AddScoped<IStoreService, StoreService>();
         services.AddScoped<IMemberService, MemberService>();
         services.AddScoped<IMembershipCardService, MembershipCardService>();
+        services.AddScoped<IMemberActionService, MemberActionService>();
         // services.AddScoped<IAccountService, AccountService>();
         // services.AddScoped<IBrandService, BrandService>();
         // services.AddScoped<IStoreService, StoreService>();

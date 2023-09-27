@@ -557,8 +557,6 @@ namespace Pointify.DataTier.Models
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.ActionValue).HasColumnType("money");
-
                 entity.Property(e => e.Status).HasMaxLength(50);
 
                 entity.HasOne(d => d.MemberActionType)
@@ -1135,6 +1133,8 @@ namespace Pointify.DataTier.Models
 
                 entity.Property(e => e.Id).HasDefaultValueSql("(newid())");
 
+                entity.Property(e => e.Currency).HasMaxLength(20);
+
                 entity.Property(e => e.InsDate).HasColumnType("datetime");
 
                 entity.Property(e => e.TransactionJson).HasMaxLength(4000);
@@ -1289,6 +1289,8 @@ namespace Pointify.DataTier.Models
                 entity.ToTable("WalletType");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.Currency).HasMaxLength(20);
 
                 entity.Property(e => e.Name).HasMaxLength(50);
 
