@@ -12,6 +12,7 @@
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/Pointify.DataTier.pdb
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/Pointify.DataTier.genruntimeconfig.cache
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/Debug/net6.0/ref/Pointify.DataTier.dll
+<<<<<<< HEAD
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.deps.json
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.runtimeconfig.json
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.dll
@@ -26,3 +27,19 @@ C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTie
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.pdb
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.genruntimeconfig.cache
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\ref\Pointify.DataTier.dll
+=======
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.deps.json
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.runtimeconfig.json
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\bin\Debug\net6.0\Pointify.DataTier.pdb
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.csproj.AssemblyReference.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.AssemblyInfoInputs.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.AssemblyInfo.cs
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.csproj.CoreCompileInputs.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\refint\Pointify.DataTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.pdb
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\Pointify.DataTier.genruntimeconfig.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.DataTier\obj\Debug\net6.0\ref\Pointify.DataTier.dll
+>>>>>>> origin/pointify_program

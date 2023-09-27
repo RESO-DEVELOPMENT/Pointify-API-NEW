@@ -13,6 +13,7 @@
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/refint/Pointify.BussinessTier.dll
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/Pointify.BussinessTier.pdb
 /Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/Debug/net6.0/ref/Pointify.BussinessTier.dll
+<<<<<<< HEAD
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.deps.json
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.dll
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.pdb
@@ -28,3 +29,20 @@ C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.Bussine
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\refint\Pointify.BussinessTier.dll
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.pdb
 C:\Users\meryc\OneDrive\Desktop\clone_Pointify\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\ref\Pointify.BussinessTier.dll
+=======
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.deps.json
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.BussinessTier.pdb
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.DataTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\bin\Debug\net6.0\Pointify.DataTier.pdb
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.csproj.AssemblyReference.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.AssemblyInfoInputs.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.AssemblyInfo.cs
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.csproj.CoreCompileInputs.cache
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.csproj.CopyComplete
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\refint\Pointify.BussinessTier.dll
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\Pointify.BussinessTier.pdb
+D:\Project\OJT\Pointify-API-NEW\Pointify.BussinessTier\obj\Debug\net6.0\ref\Pointify.BussinessTier.dll
+>>>>>>> origin/pointify_program
