@@ -7,6 +7,7 @@ namespace Pointify.DataTier.Models
     {
         public WalletType()
         {
+            MemberActionTypes = new HashSet<MemberActionType>();
             MemberWallets = new HashSet<MemberWallet>();
         }
 
@@ -16,6 +17,7 @@ namespace Pointify.DataTier.Models
         public bool? DelFlag { get; set; }
 
         public virtual MembershipProgram MemberShipProgram { get; set; } = null!;
+        public virtual ICollection<MemberActionType> MemberActionTypes { get; set; }
         public virtual ICollection<MemberWallet> MemberWallets { get; set; }
     }
 }

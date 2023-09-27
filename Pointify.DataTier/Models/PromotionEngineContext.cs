@@ -583,12 +583,21 @@ namespace Pointify.DataTier.Models
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
+                entity.Property(e => e.Code)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.Name).HasMaxLength(50);
 
                 entity.HasOne(d => d.MemberShipProgram)
                     .WithMany(p => p.MemberActionTypes)
                     .HasForeignKey(d => d.MemberShipProgramId)
                     .HasConstraintName("FK_MemberActionType_MembershipProgram");
+
+                entity.HasOne(d => d.MemberWalletType)
+                    .WithMany(p => p.MemberActionTypes)
+                    .HasForeignKey(d => d.MemberWalletTypeId)
+                    .HasConstraintName("MemberActionType___fk_type");
             });
 
             modelBuilder.Entity<MemberLevel>(entity =>
@@ -693,7 +702,9 @@ namespace Pointify.DataTier.Models
 
                 entity.Property(e => e.CreatedTime).HasColumnType("datetime");
 
-                entity.Property(e => e.MembershipCardCode).HasMaxLength(50);
+                entity.Property(e => e.MembershipCardCode)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.PhysicalCardCode).HasMaxLength(50);
 
@@ -702,6 +713,12 @@ namespace Pointify.DataTier.Models
                     .HasForeignKey(d => d.MemberId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_MemberShipCard_Member");
+
+                entity.HasOne(d => d.MemberShipCardLevel)
+                    .WithMany(p => p.MembershipCards)
+                    .HasForeignKey(d => d.MemberShipCardLevelId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("MembershipCard___fk_level");
 
                 entity.HasOne(d => d.MembershipCardType)
                     .WithMany(p => p.MembershipCards)
@@ -736,11 +753,6 @@ namespace Pointify.DataTier.Models
                 entity.Property(e => e.Status)
                     .HasMaxLength(20)
                     .IsUnicode(false);
-
-                entity.HasOne(d => d.MembershipCard)
-                    .WithMany(p => p.MembershipLevels)
-                    .HasForeignKey(d => d.MembershipCardId)
-                    .HasConstraintName("FK_MembershipLevel_MembershipCard");
             });
 
             modelBuilder.Entity<MembershipProgram>(entity =>
