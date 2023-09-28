@@ -26,6 +26,15 @@ public static class MessageConstant
         public const string MembershipCardNotFoundMessage = "membershipCard không tồn tại trong hệ thống";
         public const string MembershipCardDeletedMessage = "membershipCard đã bị xóa thành công";
     }
+    public static class MembershipCardType
+    {
+        public const string DeleteMembershipCardTypeFailedMessage = "Xóa membershipcardtype thất bại";
+        public const string MembershipCardTypeIdNotEsit = "MembershipCardType không tồn tại trong hệ thống";
+        public const string CreateMembershipCardTypeFailMessage = "Tạo membershipCardType mới thất bại";
+        public const string CreateMembershipCardTypeSucceedMessage = "Tạo membershipCardType mới thành công";
+        public const string MembershipCardTypeNotFoundMessage = "membershipCardType không tồn tại trong hệ thống";
+        public const string MembershipCardTypeDeletedMessage = "membershipCardType đã bị xóa thành công";
+    }
     public static class Member
     {
         public const string DeleteMemberFailedMessage = "Xóa member thất bại";
@@ -34,6 +43,15 @@ public static class MessageConstant
         public const string CreateMemberSucceedMessage = "Tạo member mới thành công";
         public const string MemberNotFoundMessage = "Member không tồn tại trong hệ thống";
         public const string MemberDeletedMessage = "Member đã bị xóa thành công";
+    }
+    public static class MemberLevel
+    {
+        public const string DeleteMemberLevelFailedMessage = "Xóa memberLevel thất bại";
+        public const string MemberLevelIdNotEsit = "MemberLevel không tồn tại trong hệ thống";
+        public const string CreateMemberLevelFailMessage = "Tạo memberLevel mới thất bại";
+        public const string CreateMemberLevelSucceedMessage = "Tạo memberLevel mới thành công";
+        public const string MemberLevelNotFoundMessage = "MemberLevel không tồn tại trong hệ thống";
+        public const string MemberLevelDeletedMessage = "MemberLevel đã bị xóa thành công";
     }
     public static class Account
     {

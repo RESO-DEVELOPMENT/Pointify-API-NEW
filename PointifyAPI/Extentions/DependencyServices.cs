@@ -44,6 +44,8 @@ public static class DependencyServices
         services.AddScoped<IStoreService, StoreService>();
         services.AddScoped<IMemberService, MemberService>();
         services.AddScoped<IMembershipCardService, MembershipCardService>();
+        services.AddScoped<IMembershipCardTypeService, MembershipCardTypeService>();
+        services.AddScoped<IMemberLevelService, MemberLevelService>();
         services.AddScoped<IMemberActionService, MemberActionService>();
         services.AddScoped<IMemberActionTypeService, MemberActionTypeService>();
         services.AddScoped<IWallTypeService, WallTypeService>();
