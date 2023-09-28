@@ -40,9 +40,8 @@ public static class ApiEndPointConstant
     public static class Programs
     {
         public const string ProgramsEndpoint = ApiEndpoint + "/programs";
-
         public const string ProgramEndpoint = ProgramsEndpoint + "/{id}";
-        // public const string BrandAccountEndpoint = BrandEndpoint + "/users";
+        public const string ProgramHideEndpoint = ProgramsEndpoint + "/delete";
         // public const string StoresInBrandEndpoint = BrandEndpoint + "/stores";
     }
 
@@ -67,6 +66,7 @@ public static class ApiEndPointConstant
         public const string StoreEndDayReportEndpoint = StoreEndpoint + "/day-report";
         public const string GetPromotion = StoreEndpoint + "/promotion";
         public const string ScanMember = StoresEndpoint + "/member-scan/{code}";
+        public const string MemberAction = StoresEndpoint + "/member-action";
     }
 
     public static class Account
@@ -138,5 +138,19 @@ public static class ApiEndPointConstant
     {
         public const string PromotionEndpoint = ApiEndpoint + "/promotion";
         public const string SessionReportEndPoint = PromotionEndpoint + "/session-report/{id}";
+    }
+
+    public static class MemberActionType
+    {
+        public const string ActionTypeEndpoint = ApiEndpoint + "/actiontype";
+        public const string ActionTypeIdEndpoint = ActionTypeEndpoint + "/{id}";
+        public const string ActionHideEndpoint = ActionTypeEndpoint + "/delete";
+    }
+
+    public static class WallType
+    {
+        public const string WallTypeEndpoint = ApiEndpoint + "/walltype";
+        public const string WallTypeIdEndpoint = WallTypeEndpoint + "/{id}";
+        public const string WallHideEndpoint = WallTypeEndpoint + "/delete";
     }
 }

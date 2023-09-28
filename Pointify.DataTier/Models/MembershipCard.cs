@@ -18,10 +18,8 @@ namespace Pointify.DataTier.Models
         public Guid BrandId { get; set; }
         public Guid MembershipCardTypeId { get; set; }
         public string? PhysicalCardCode { get; set; }
-        public Guid MemberShipCardLevelId { get; set; }
 
         public virtual Member Member { get; set; } = null!;
-        public virtual MembershipLevel MemberShipCardLevel { get; set; } = null!;
         public virtual MembershipCardType MembershipCardType { get; set; } = null!;
         public virtual ICollection<MemberAction> MemberActions { get; set; }
     }

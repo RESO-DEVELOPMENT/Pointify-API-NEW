@@ -545,6 +545,12 @@ namespace Pointify.DataTier.Models
                     .HasForeignKey(d => d.CustomerId)
                     .HasConstraintName("FK_Member_Customer");
 
+                entity.HasOne(d => d.MemberLevel)
+                    .WithMany(p => p.Members)
+                    .HasForeignKey(d => d.MemberLevelId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("Member___fk_MemberLevel");
+
                 entity.HasOne(d => d.MemberProgram)
                     .WithMany(p => p.Members)
                     .HasForeignKey(d => d.MemberProgramId)
@@ -556,8 +562,6 @@ namespace Pointify.DataTier.Models
                 entity.ToTable("MemberAction");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
-
-                entity.Property(e => e.ActionValue).HasColumnType("money");
 
                 entity.Property(e => e.Status).HasMaxLength(50);
 
@@ -713,12 +717,6 @@ namespace Pointify.DataTier.Models
                     .HasForeignKey(d => d.MemberId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_MemberShipCard_Member");
-
-                entity.HasOne(d => d.MemberShipCardLevel)
-                    .WithMany(p => p.MembershipCards)
-                    .HasForeignKey(d => d.MemberShipCardLevelId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("MembershipCard___fk_level");
 
                 entity.HasOne(d => d.MembershipCardType)
                     .WithMany(p => p.MembershipCards)
@@ -1135,6 +1133,8 @@ namespace Pointify.DataTier.Models
 
                 entity.Property(e => e.Id).HasDefaultValueSql("(newid())");
 
+                entity.Property(e => e.Currency).HasMaxLength(20);
+
                 entity.Property(e => e.InsDate).HasColumnType("datetime");
 
                 entity.Property(e => e.TransactionJson).HasMaxLength(4000);
@@ -1289,6 +1289,8 @@ namespace Pointify.DataTier.Models
                 entity.ToTable("WalletType");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.Currency).HasMaxLength(20);
 
                 entity.Property(e => e.Name).HasMaxLength(50);
 

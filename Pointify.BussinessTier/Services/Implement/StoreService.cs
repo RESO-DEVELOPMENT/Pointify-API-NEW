@@ -4,11 +4,6 @@ using Pointify.BussinessTier.Payload.Response;
 using Pointify.BussinessTier.Services.Interface;
 using Pointify.BussinessTier.UnitOfWork.Interface;
 using Pointify.DataTier.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pointify.BussinessTier.Services.Implement
 {

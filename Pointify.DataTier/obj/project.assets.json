@@ -2014,26 +2014,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\meryc\\.nuget\\packages\\": {}
+    "/Users/nguyenduong/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meryc\\OneDrive\\Desktop\\clone_Pointify\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj",
+      "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj",
       "projectName": "Pointify.DataTier",
-      "projectPath": "C:\\Users\\meryc\\OneDrive\\Desktop\\clone_Pointify\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj",
-      "packagesPath": "C:\\Users\\meryc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meryc\\OneDrive\\Desktop\\clone_Pointify\\Pointify-API-NEW\\Pointify.DataTier\\obj\\",
+      "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj",
+      "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+      "outputPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\meryc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2089,7 +2087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.414/RuntimeIdentifierGraph.json"
       }
     }
   }

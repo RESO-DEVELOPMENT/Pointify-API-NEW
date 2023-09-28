@@ -16,8 +16,10 @@ namespace Pointify.BussinessTier.Payload.Response
         public Guid BrandId { get; set; }
         public Guid MembershipCardTypeId { get; set; }
         public string? PhysicalCardCode { get; set; }
-        public Guid MemberShipCardLevelId { get; set; }
-        public MembershipCardResponse(Guid Id, Guid MemberId, string MembershipCardCode, bool? Active, DateTime? CreatedTime, Guid BrandId, Guid MembershipCardTypeId, string PhysicalCardCode, Guid MemberShipCardLevelId)
+
+        public MembershipCardResponse(Guid Id, Guid MemberId, string MembershipCardCode, bool? Active,
+            DateTime? CreatedTime, Guid BrandId, Guid MembershipCardTypeId, string PhysicalCardCode
+        )
         {
             this.Id = Id;
             this.MemberId = MemberId;
@@ -27,7 +29,6 @@ namespace Pointify.BussinessTier.Payload.Response
             this.BrandId = BrandId;
             this.MembershipCardTypeId = MembershipCardTypeId;
             this.PhysicalCardCode = PhysicalCardCode;
-            this.MemberShipCardLevelId = MemberShipCardLevelId;
         }
     }
 }
