@@ -27,6 +27,16 @@ public static class ApiEndPointConstant
         public const string MembershipCardsEndpoint = ApiEndpoint + "/membership-cards";
         public const string MembershipCardEndpoint = MembershipCardsEndpoint + "/{id}";
     }
+    public static class MembershipCardType
+    {
+        public const string MembershipCardTypesEndpoint = ApiEndpoint + "/membership-card-types";
+        public const string MembershipCardTypeEndpoint = MembershipCardTypesEndpoint + "/{id}";
+    }
+    public static class MemberLevel
+    {
+        public const string MemberLevelsEndpoint = ApiEndpoint + "/member-level";
+        public const string MemberLevelEndpoint = MemberLevelsEndpoint + "/{id}";
+    }
     public static class Programs
     {
         public const string ProgramsEndpoint = ApiEndpoint + "/programs";
