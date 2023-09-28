@@ -14,17 +14,18 @@ namespace Pointify.BussinessTier.Payload.Request
         public Guid BrandId { get; set; }
         public Guid MembershipCardTypeId { get; set; }
         public string? PhysicalCardCode { get; set; }
-        public Guid MemberShipCardLevelId { get; set; }
 
-        public MembershipCardRequest(Guid MemberId, Guid BrandId, Guid MembershipCardTypeId, string PhysicalCardCode, Guid MemberShipCardLevelId)
+
+        public MembershipCardRequest(Guid memberId, Guid brandId, Guid membershipCardTypeId, string physicalCardCode, string membershipCardCode)
         {
-            this.MemberId = MemberId;
-            this.BrandId = BrandId;
-            this.MembershipCardTypeId = MembershipCardTypeId;
-            this.PhysicalCardCode = PhysicalCardCode;
-            this.MemberShipCardLevelId = MemberShipCardLevelId;
+            MemberId = memberId;
+            BrandId = brandId;
+            MembershipCardTypeId = membershipCardTypeId;
+            PhysicalCardCode = physicalCardCode;
+            MembershipCardCode = membershipCardCode;
         }
     }
+
     public class UpdMembershipCardRequest
     {
         public string MembershipCardCode { get; set; } = null!;

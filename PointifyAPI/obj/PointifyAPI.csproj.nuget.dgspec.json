@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\OJT\\Pointify-API-NEW\\PointifyAPI\\PointifyAPI.csproj": {}
+    "/Users/nguyenduong/Documents/GitHub/PointifyAPI/PointifyAPI/PointifyAPI.csproj": {}
   },
   "projects": {
-    "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\Pointify.BussinessTier.csproj": {
+    "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/Pointify.BussinessTier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\Pointify.BussinessTier.csproj",
+        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/Pointify.BussinessTier.csproj",
         "projectName": "Pointify.BussinessTier",
-        "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\Pointify.BussinessTier.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\obj\\",
+        "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/Pointify.BussinessTier.csproj",
+        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+        "outputPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj": {
-                "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj"
+              "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj": {
+                "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj"
               }
             }
           }
@@ -74,33 +67,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj": {
+    "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj",
+        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj",
         "projectName": "Pointify.DataTier",
-        "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\obj\\",
+        "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj",
+        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+        "outputPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,44 +142,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\OJT\\Pointify-API-NEW\\PointifyAPI\\PointifyAPI.csproj": {
+    "/Users/nguyenduong/Documents/GitHub/PointifyAPI/PointifyAPI/PointifyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OJT\\Pointify-API-NEW\\PointifyAPI\\PointifyAPI.csproj",
+        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/PointifyAPI/PointifyAPI.csproj",
         "projectName": "PointifyAPI",
-        "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\PointifyAPI\\PointifyAPI.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OJT\\Pointify-API-NEW\\PointifyAPI\\obj\\",
+        "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/PointifyAPI/PointifyAPI.csproj",
+        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+        "outputPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/PointifyAPI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\Pointify.BussinessTier.csproj": {
-                "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.BussinessTier\\Pointify.BussinessTier.csproj"
+              "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/Pointify.BussinessTier.csproj": {
+                "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.BussinessTier/Pointify.BussinessTier.csproj"
               },
-              "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj": {
-                "projectPath": "D:\\Project\\OJT\\Pointify-API-NEW\\Pointify.DataTier\\Pointify.DataTier.csproj"
+              "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj": {
+                "projectPath": "/Users/nguyenduong/Documents/GitHub/PointifyAPI/Pointify.DataTier/Pointify.DataTier.csproj"
               }
             }
           }
@@ -256,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
         }
       }
     }

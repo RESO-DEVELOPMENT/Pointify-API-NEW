@@ -20,7 +20,7 @@ namespace Pointify.BussinessTier.Services.Implement
             MembershipCard membershipCard = await _unitOfWork.GetRepository<MembershipCard>().SingleOrDefaultAsync(
                 predicate:
                 x => x.MembershipCardCode.Equals(request.MemberShipCardCode),
-                include: y => y.Include(m => m.Member).Include(l => l.MemberShipCardLevel)
+                include: y => y.Include(m => m.Member).ThenInclude(l => l.MemberLevel)
             );
             MemberActionType actionType = await _unitOfWork.GetRepository<MemberActionType>().SingleOrDefaultAsync(
                 predicate: x => x.Id.Equals(request.MemberActionTypeId));
@@ -45,39 +45,39 @@ namespace Pointify.BussinessTier.Services.Implement
             switch (actionType.Code)
             {
                 case "GET_POINT":
-                    {
-                        wallet.Balance += membershipCard.MemberShipCardLevel.PointRedeemRate ?? 0 * request.Amount;
-                        wallet.BalanceHistory += membershipCard.MemberShipCardLevel.PointRedeemRate!
-                                                 * request.Amount;
-                        memberAction.ActionValue = membershipCard.MemberShipCardLevel.PointRedeemRate ?? 0 * request.Amount;
-                        memberAction.Status = "COMPLETE";
-                        memberAction.Description = "[Thành công] " + request.Description;
-                        break;
-                    }
+                {
+                    wallet.Balance += membershipCard.Member.MemberLevel.PointRedeemRate ?? 0 * request.Amount;
+                    wallet.BalanceHistory += membershipCard.Member.MemberLevel.PointRedeemRate!
+                                             * request.Amount;
+                    memberAction.ActionValue = membershipCard.Member.MemberLevel.PointRedeemRate ?? 0 * request.Amount;
+                    memberAction.Status = "COMPLETE";
+                    memberAction.Description = "[Thành công] " + request.Description;
+                    break;
+                }
                 case "TOP_UP":
-                    {
-                        wallet.Balance += request.Amount;
-                        wallet.BalanceHistory += request.Amount;
-                        memberAction.ActionValue = request.Amount;
-                        memberAction.Status = "COMPLETE";
-                        memberAction.Description = "[Thành công] " + request.Description;
-                        break;
-                    }
+                {
+                    wallet.Balance += request.Amount;
+                    wallet.BalanceHistory += request.Amount;
+                    memberAction.ActionValue = request.Amount;
+                    memberAction.Status = "COMPLETE";
+                    memberAction.Description = "[Thành công] " + request.Description;
+                    break;
+                }
                 case "PAYMENT":
+                {
+                    if (wallet.Balance < request.Amount)
                     {
-                        if (wallet.Balance < request.Amount)
-                        {
-                            memberAction.Status = "FAIL";
-                            memberAction.Description = "[Thất bại] Số dư tài khoản không đủ";
-                            break;
-                        }
-
-                        wallet.Balance -= request.Amount;
-                        memberAction.ActionValue = request.Amount;
-                        memberAction.Status = "COMPLETE";
-                        memberAction.Description = "[Thành công] " + request.Description;
+                        memberAction.Status = "FAIL";
+                        memberAction.Description = "[Thất bại] Số dư tài khoản không đủ";
                         break;
                     }
+
+                    wallet.Balance -= request.Amount;
+                    memberAction.ActionValue = request.Amount;
+                    memberAction.Status = "COMPLETE";
+                    memberAction.Description = "[Thành công] " + request.Description;
+                    break;
+                }
             }
 
             if (memberAction.Status == "COMPLETE")

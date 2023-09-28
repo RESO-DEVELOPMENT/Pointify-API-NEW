@@ -20,8 +20,10 @@ namespace Pointify.DataTier.Models
         public DateTime? UpdDate { get; set; }
         public Guid? MemberProgramId { get; set; }
         public Guid? CustomerId { get; set; }
+        public Guid MemberLevelId { get; set; }
 
         public virtual Customer? Customer { get; set; }
+        public virtual MembershipLevel MemberLevel { get; set; } = null!;
         public virtual MembershipProgram? MemberProgram { get; set; }
         public virtual ICollection<MemberWallet> MemberWallets { get; set; }
         public virtual ICollection<MembershipCard> MembershipCards { get; set; }

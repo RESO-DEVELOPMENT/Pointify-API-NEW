@@ -545,6 +545,12 @@ namespace Pointify.DataTier.Models
                     .HasForeignKey(d => d.CustomerId)
                     .HasConstraintName("FK_Member_Customer");
 
+                entity.HasOne(d => d.MemberLevel)
+                    .WithMany(p => p.Members)
+                    .HasForeignKey(d => d.MemberLevelId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("Member___fk_MemberLevel");
+
                 entity.HasOne(d => d.MemberProgram)
                     .WithMany(p => p.Members)
                     .HasForeignKey(d => d.MemberProgramId)
@@ -711,12 +717,6 @@ namespace Pointify.DataTier.Models
                     .HasForeignKey(d => d.MemberId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_MemberShipCard_Member");
-
-                entity.HasOne(d => d.MemberShipCardLevel)
-                    .WithMany(p => p.MembershipCards)
-                    .HasForeignKey(d => d.MemberShipCardLevelId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("MembershipCard___fk_level");
 
                 entity.HasOne(d => d.MembershipCardType)
                     .WithMany(p => p.MembershipCards)

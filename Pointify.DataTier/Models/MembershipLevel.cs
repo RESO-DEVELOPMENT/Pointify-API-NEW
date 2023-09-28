@@ -7,7 +7,7 @@ namespace Pointify.DataTier.Models
     {
         public MembershipLevel()
         {
-            MembershipCards = new HashSet<MembershipCard>();
+            Members = new HashSet<Member>();
         }
 
         public Guid Id { get; set; }
@@ -19,6 +19,6 @@ namespace Pointify.DataTier.Models
         public double? PointRedeemRate { get; set; }
         public int? LevelRank { get; set; }
 
-        public virtual ICollection<MembershipCard> MembershipCards { get; set; }
+        public virtual ICollection<Member> Members { get; set; }
     }
 }
